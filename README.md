@@ -17,15 +17,14 @@ Given a record of every transaction during a three month period, calculate the r
 ·       Create a RESTful endpoint
 ·       Make up a data set to best demonstrate your solution
 
-The package : com.customer.rewards
-Packing using maven dependancies and building
-Mysql database is used and configured using application.properties file for storing CUSTOMER and TRANSACTION details in database.scrip.sql file is used to populate records into tables.
-Exception handling is done for Resource not found(if customer does not exists) and all the global exceptions are taken care is thrown.
-Used springdoc for API documentation and swagger UI 
-use http://localhost:8080/v3/api-docs for json response
-use http://localhost:8080/swagger-ui/index.html for web ui
-Logging implemented using org.slf4j.Logger
-use http://localhost:8080/customerReward/rewardPoints/{customerId} for calculating the reward points 
-ex :http://localhost:8080/customerReward/rewardPoints/100 
-
-Refer postman collection available in parent project directory with name "Reward points.postman_collection"
+1. The package : com.customer.rewards
+2. Packing using maven dependancies and building
+3. Mysql database is used and configured using application.properties file for storing CUSTOMER and TRANSACTION details in database.scrip.sql file is used to populate records into tables.
+4. Exception handling is done for Resource not found(if customer does not exists) and all the global exceptions are taken care is thrown.
+5. Used springdoc for API documentation and swagger UI 
+   use http://localhost:8080/v3/api-docs for json response
+   use http://localhost:8080/swagger-ui/index.html for web ui
+6. Logging implemented using org.slf4j.Logger
+7. use http://localhost:8080/customerReward/rewardPoints/{customerId} for calculating the reward points 
+   ex :http://localhost:8080/customerReward/rewardPoints/100 
+8. Refer postman collection available in parent project directory with name "Reward points.postman_collection"
