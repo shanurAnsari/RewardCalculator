@@ -28,3 +28,6 @@ Given a record of every transaction during a three month period, calculate the r
 7. use http://localhost:8080/customerReward/rewardPoints/{customerId} for calculating the reward points 
    ex :http://localhost:8080/customerReward/rewardPoints/100 
 8. Refer postman collection available in parent project directory with name "Reward points.postman_collection"
+9. New Entity and Controller added for implementing Create, Read, Update and Delete functionalities on User entity
+10. Junit tests also created for Create, Read, Update and Delete functionalities on User entity
+    
